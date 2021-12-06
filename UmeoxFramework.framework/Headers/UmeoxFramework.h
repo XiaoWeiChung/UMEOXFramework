@@ -10,10 +10,6 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@protocol UmeoxFrameworkDelegate <NSObject>
-- (void)loginSuccess;
-@end
-
 @interface UmeoxFramework : NSObject
 // 是否在视频通话界面
 @property (assign, nonatomic) BOOL isJumpToVideoVc;
@@ -23,7 +19,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (assign, nonatomic) CGFloat posY;
 // 导航栏
 @property (strong, nonatomic) UINavigationController * _Nonnull nav;
-@property (nonatomic,assign) id<UmeoxFrameworkDelegate>delegate;
 
 // 单例对象
 + (instancetype)shareInstance;
