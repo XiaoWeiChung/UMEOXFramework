@@ -117,7 +117,7 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-  # spec.framework  = "SomeFramework"
+   spec.framework  = "UmeoxFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.library   = "iconv"
@@ -134,16 +134,16 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
 
-#spec.dependency "AFNetworking"
-#spec.dependency "SDWebImage"
-#spec.dependency "MJExtension"
-#spec.dependency "MJRefresh"
-#spec.dependency "MBProgressHUD"
-#spec.dependency "Masonry"
-#spec.dependency "GoogleMaps"
-#spec.dependency "FSCalendar"
-#spec.dependency "YBImageBrowser"
-#spec.dependency "AgoraRtcEngine_iOS", "~> 3.1.2"
-#spec.dependency "AgoraRtm_iOS", "~> 1.4.1"
+spec.dependency "AFNetworking"
+spec.dependency "SDWebImage"
+spec.dependency "MJExtension"
+spec.dependency "MJRefresh"
+spec.dependency "MBProgressHUD"
+spec.dependency "Masonry"
+spec.dependency "GoogleMaps"
+spec.dependency "FSCalendar"
+spec.dependency "YBImageBrowser"
+spec.dependency "AgoraRtcEngine_iOS", "~> 3.1.2"
+spec.dependency "AgoraRtm_iOS", "~> 1.4.1"
 
 end
