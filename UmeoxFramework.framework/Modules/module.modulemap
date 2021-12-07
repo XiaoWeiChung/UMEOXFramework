@@ -1,6 +1,0 @@
-framework module UmeoxFramework {
-  umbrella header "UmeoxFramework.h"
-
-  export *
-  module * { export * }
-}

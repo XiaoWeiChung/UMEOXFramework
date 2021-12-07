@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "UmeoxFramework"
-  spec.version      = "1.0.2"
+  spec.version      = "1.0.3"
   spec.summary      = "MOTO APP Framework"
 
   # This description is used to generate tags and improve search results.
@@ -40,7 +40,7 @@ Pod::Spec.new do |spec|
   #
 
   #spec.license      = "MIT (example)"
-  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  spec.license      =  "MIT" 
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -64,7 +64,7 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-   spec.platform     = :ios
+   spec.platform     = :ios, "10.0"
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/XiaoWeiChung/UMEOXFramework.git", :tag => "1.0.0" }
+  spec.source       = { :git => "https://github.com/XiaoWeiChung/UMEOXFramework.git", :tag => "1.0.3" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "UmeoxFramework.framework/Headers/*.{h,m}"
+   spec.source_files  = "Framework/UmeoxFramework.framework/Headers/*.{h,m}"
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -105,11 +105,11 @@ Pod::Spec.new do |spec|
   #  non-essential files like tests, examples and documentation.
   #
 
-  # spec.resource  = "icon.png"
+   spec.resource  = "Resource/Resources.bundle"
   # spec.resources = "Resources/*.png"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
-
+    spec.ios.vendored_frameworks = 'Framework/UmeoxFramework.framework'
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -117,10 +117,10 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-   spec.framework  = "UmeoxFramework"
+  # spec.framework  = "Framework/UmeoxFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
-  # spec.library   = "iconv"
+  # spec.library   = "Framework/UmeoxFramework"
   # spec.libraries = "iconv", "xml2"
 
 
@@ -134,16 +134,21 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
 
-spec.dependency "AFNetworking"
-spec.dependency "SDWebImage"
-spec.dependency "MJExtension"
-spec.dependency "MJRefresh"
-spec.dependency "MBProgressHUD"
-spec.dependency "Masonry"
-spec.dependency "GoogleMaps"
-spec.dependency "FSCalendar"
-spec.dependency "YBImageBrowser"
-spec.dependency "AgoraRtcEngine_iOS", "~> 3.1.2"
-spec.dependency "AgoraRtm_iOS", "~> 1.4.1"
+    spec.pod_target_xcconfig = {
+        'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+    }
+    spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+
+# spec.dependency "AFNetworking"
+# spec.dependency "SDWebImage"
+# spec.dependency "MJExtension"
+# spec.dependency "MJRefresh"
+# spec.dependency "MBProgressHUD"
+# spec.dependency "Masonry"
+# spec.dependency "GoogleMaps"
+# spec.dependency "FSCalendar"
+# spec.dependency "YBImageBrowser"
+# spec.dependency "AgoraRtcEngine_iOS", "~> 3.1.2"
+# spec.dependency "AgoraRtm_iOS", "~> 1.4.1"
 
 end
