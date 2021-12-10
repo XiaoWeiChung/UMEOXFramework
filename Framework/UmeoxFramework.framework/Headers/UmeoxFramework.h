@@ -19,15 +19,19 @@ NS_ASSUME_NONNULL_BEGIN
 @property (assign, nonatomic) CGFloat posY;
 // 导航栏
 @property (strong, nonatomic) UINavigationController * _Nonnull nav;
+// 点击了Tabbar那个Item
+@property (nonatomic,copy) void (^umeoxDidSelectItem)(NSInteger index);
 
 // 单例对象
 + (instancetype)shareInstance;
 // 初始化相关配置信息
 - (void)initUmeoxFrameworkWithCode:(NSString *)code andSetAppConfig:(NSDictionary *)dict;
-// 进入主页
+
+// enter homepage
 - (UIViewController *)startMain;
-// 进入扫描界面
+// enter scan interface
 - (UIViewController *)startScan;
+
 // 更新宝贝信息
 - (void)profileUpdated:(NSString *)oAuthCode ProfileId:(NSString *)profileId;
 @end

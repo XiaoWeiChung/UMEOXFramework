@@ -4,17 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
-		<data>
-		bQixnJ9YUlZfD3zkLWAGbaZlPT8=
-		</data>
 		<key>AFNetworkingInfo.plist</key>
 		<data>
 		vuHY1j4URtATtckl5IvnDAnnuvU=
 		</data>
 		<key>Assets.car</key>
 		<data>
-		pPQ7gmHTJlgrReVkL1dU+qhO1os=
+		K+wC38ggba5o4BsEExnDaWlbe9M=
 		</data>
 		<key>GoogleMaps.bundle/GMSCacheStorage.momd/Storage.mom</key>
 		<data>
@@ -63,10 +59,6 @@
 		<key>GoogleMaps.bundle/GMSCoreResources.bundle/GMSNavSprites-0-3x.png</key>
 		<data>
 		71kfAzHiEMvBEzOv7EHvlQHjfuA=
-		</data>
-		<key>GoogleMaps.bundle/GMSCoreResources.bundle/GMSShaders.metallib</key>
-		<data>
-		CvpKIVxQVtN5amW2yxhQduG/TfI=
 		</data>
 		<key>GoogleMaps.bundle/GMSCoreResources.bundle/GMSSprites-0-1x.png</key>
 		<data>
@@ -811,11 +803,11 @@
 		</data>
 		<key>Headers/UmeoxFramework.h</key>
 		<data>
-		qi76uUjwbJn1fsOMYA59So0Y/3Y=
+		ISu1Icr3Acx+bQV7V4Kr5SXAkvI=
 		</data>
 		<key>Headers/UmeoxNotificationCenter.h</key>
 		<data>
-		Exu8QlUStG2NPo86ZJHt+fo2ncI=
+		GqnUFK0mQzEzcnvolNwUT/87hs0=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -3007,11 +2999,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pPQ7gmHTJlgrReVkL1dU+qhO1os=
+			K+wC38ggba5o4BsEExnDaWlbe9M=
 			</data>
 			<key>hash2</key>
 			<data>
-			/csCYDknajEmRKu96gjRa2W94kjmPNt5Sbfwb8FCaBE=
+			yeRNSd2gJOdyuUbT1nKto+IBajZ++PPQq4M5hnCC3qQ=
 			</data>
 		</dict>
 		<key>GoogleMaps.bundle/GMSCacheStorage.momd/Storage.mom</key>
@@ -3144,17 +3136,6 @@
 			<key>hash2</key>
 			<data>
 			0SyDaAgdNWt5XirK8fh9r/KPbbBqlWeaa1+p4aMYRvw=
-			</data>
-		</dict>
-		<key>GoogleMaps.bundle/GMSCoreResources.bundle/GMSShaders.metallib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			CvpKIVxQVtN5amW2yxhQduG/TfI=
-			</data>
-			<key>hash2</key>
-			<data>
-			6m3AhfWakkKA124tQxMWsbZZCrUS63JDHPS6Hvdc9UI=
 			</data>
 		</dict>
 		<key>GoogleMaps.bundle/GMSCoreResources.bundle/GMSSprites-0-1x.png</key>
@@ -4623,22 +4604,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qi76uUjwbJn1fsOMYA59So0Y/3Y=
+			ISu1Icr3Acx+bQV7V4Kr5SXAkvI=
 			</data>
 			<key>hash2</key>
 			<data>
-			Y7Arzai4XGbkUFAFMjXSRsjlOPSIr9SE7PHqhsLTqnU=
+			nZ+drknqudHca90EsSnjaHvJrYtSY5+HPRDUHo1zU6Y=
 			</data>
 		</dict>
 		<key>Headers/UmeoxNotificationCenter.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Exu8QlUStG2NPo86ZJHt+fo2ncI=
+			GqnUFK0mQzEzcnvolNwUT/87hs0=
 			</data>
 			<key>hash2</key>
 			<data>
-			PEoIztWjmyQLuimvVGcfNcO+U07K07b/zZCF0KrqieQ=
+			OLXN7xD4DgM7xBGEpNXR44e3iM69MFpuNlCIopdKQfk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

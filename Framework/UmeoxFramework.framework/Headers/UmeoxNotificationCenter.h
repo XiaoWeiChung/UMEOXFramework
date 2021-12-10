@@ -14,9 +14,10 @@ NS_ASSUME_NONNULL_BEGIN
 + (instancetype)shareInstance;
 /*
     notification : Push notification.
+    oauthCode : Third-party login code.
     isTapPush : Whether it is triggered by a click push.
  */
-- (void)handlePushRemote:(NSDictionary *)apnsBody isTapPush:(BOOL)isTapPush;
+- (void)processNotification:(NSDictionary *)apnsBody andAuthCode:(NSString *)oauthCode andIsTapPush:(BOOL)isTapPush;
 @end
 
 NS_ASSUME_NONNULL_END

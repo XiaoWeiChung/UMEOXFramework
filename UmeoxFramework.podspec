@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "UmeoxFramework"
-  spec.version      = "1.0.3"
+  spec.version      = "1.0.4"
   spec.summary      = "MOTO APP Framework"
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/XiaoWeiChung/UMEOXFramework.git", :tag => "1.0.3" }
+  spec.source       = { :git => "https://github.com/XiaoWeiChung/UMEOXFramework.git", :tag => "1.0.4" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -140,15 +140,15 @@ Pod::Spec.new do |spec|
     spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 # spec.dependency "AFNetworking"
-# spec.dependency "SDWebImage"
-# spec.dependency "MJExtension"
-# spec.dependency "MJRefresh"
-# spec.dependency "MBProgressHUD"
-# spec.dependency "Masonry"
-# spec.dependency "GoogleMaps"
-# spec.dependency "FSCalendar"
-# spec.dependency "YBImageBrowser"
-# spec.dependency "AgoraRtcEngine_iOS", "~> 3.1.2"
-# spec.dependency "AgoraRtm_iOS", "~> 1.4.1"
+ spec.dependency "SDWebImage"
+ spec.dependency "MJExtension"
+ spec.dependency "MJRefresh"
+ spec.dependency "MBProgressHUD"
+ spec.dependency "Masonry"
+ spec.dependency "GoogleMaps"
+ spec.dependency "FSCalendar"
+ spec.dependency "YBImageBrowser"
+ spec.dependency "AgoraRtcEngine_iOS", "~> 3.1.2"
+ spec.dependency "AgoraRtm_iOS", "~> 1.4.1"
 
 end
